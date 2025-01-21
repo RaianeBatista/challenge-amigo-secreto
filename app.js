@@ -52,4 +52,10 @@ function sortearAmigo() {
   resultadoElement.innerHTML = `<li>O amigo secreto sorteado é: ${amigoSorteado}</li>`;
 }
 
+// Adicionar evento de input para capitalizar a primeira letra enquanto o usuário digita
+document.getElementById("amigo").addEventListener("input", function (event) {
+  const input = event.target;
+  input.value = capitalizeFirstLetter(input.value);
+});
+
 
