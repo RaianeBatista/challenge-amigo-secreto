@@ -16,3 +16,15 @@ function adicionarAmigo() {
   inputAmigo.value = "";
 }
 
+// Função para atualizar a lista de amigos exibida na página
+function atualizarListaDeAmigos() {
+  const listaAmigosElement = document.getElementById("listaAmigos");
+  listaAmigosElement.innerHTML = "";
+
+  listaDeAmigos.forEach((amigo, index) => {
+    const li = document.createElement("li");
+    li.textContent = amigo;
+    listaAmigosElement.appendChild(li);
+  });
+}
+
