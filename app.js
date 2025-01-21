@@ -5,6 +5,12 @@ let listaDeAmigos = [];
 function adicionarAmigo() {
   const inputAmigo = document.getElementById("amigo");
   const nomeAmigo = capitalizeFirstLetter(inputAmigo.value.trim());
+  // Verificar se o nome contém apenas letras
+  const regex = /^[A-Za-zÀ-ÖØ-öø-ÿ]+$/;
+  if (!regex.test(nomeAmigo)) {
+    alert("Por favor, insira um nome válido contendo apenas letras.");
+    return;
+  }
 
   if (nomeAmigo === "") {
     alert("Por favor, insira um nome válido.");
@@ -35,8 +41,12 @@ function capitalizeFirstLetter(string) {
 
 // Função para sortear um amigo secreto
 function sortearAmigo() {
-  if (listaDeAmigos.length === 0) {
-    alert("A lista de amigos está vazia. Adicione pelo menos um nome.");
+  let mensagemElement = document.getElementById("mensagem");
+
+  if (!listaDeAmigos.length) {
+    mensagemElement.textContent =
+      "A lista de amigos está vazia. Adicione pelo menos um nome.";
+    mensagemElement.style.color = "red";
     return;
   }
 
@@ -60,7 +70,7 @@ document.getElementById("amigo").addEventListener("input", function (event) {
 
 // Adicionar evento de keydown para adicionar amigo ao pressionar Enter
 document.getElementById("amigo").addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-        adicionarAmigo();
-    }
+  if (event.key === "Enter") {
+    adicionarAmigo();
+  }
 });
