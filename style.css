@@ -154,8 +154,6 @@ ul {
 }
 
 /* Responsividade */
-
-
 @media (max-width: 426px) {
     .header-banner {
     margin-left: 15px;

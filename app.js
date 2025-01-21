@@ -43,12 +43,6 @@ function capitalizeFirstLetter(string) {
 function sortearAmigo() {
   let mensagemElement = document.getElementById("mensagem");
 
-  if (!listaDeAmigos.length) {
-    mensagemElement.textContent =
-      "A lista de amigos está vazia. Adicione pelo menos um nome.";
-    mensagemElement.style.color = "red";
-    return;
-  }
 
   const indiceSorteado = Math.floor(Math.random() * listaDeAmigos.length);
   const amigoSorteado = listaDeAmigos[indiceSorteado];
