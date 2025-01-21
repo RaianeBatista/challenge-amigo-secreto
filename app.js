@@ -39,3 +39,17 @@ function sortearAmigo() {
     alert("A lista de amigos está vazia. Adicione pelo menos um nome.");
     return;
   }
+
+  const indiceSorteado = Math.floor(Math.random() * listaDeAmigos.length);
+  const amigoSorteado = listaDeAmigos[indiceSorteado];
+
+  // Ocultar a lista de amigos
+  const listaAmigosElement = document.getElementById("listaAmigos");
+  listaAmigosElement.style.display = "none";
+
+  // Exibir o resultado do sorteio
+  const resultadoElement = document.getElementById("resultado");
+  resultadoElement.innerHTML = `<li>O amigo secreto sorteado é: ${amigoSorteado}</li>`;
+}
+
+
