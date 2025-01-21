@@ -154,134 +154,25 @@ ul {
 }
 
 /* Responsividade */
-@media (min-width: 768px) and (max-width: 1024px) {
-  .main-title {
-    font-size: 30px;
-  }
 
-  .img-friend {
- height: 150px;
-  }
-  .section-title {
-    font-size: 28px;
-  }
 
-  .input-wrapper {
-    max-width: 500px;
-  }
-
-  button {
-    padding: 10px 15px;
-    font-size: 14px;
-  }
-
-  .button-draw {
-    padding: 10px 20px;
-  }
-
-  .button-draw img {
-    margin-right: 20px;
-  }
-
-  .input-section {
-    width: 100%;
-  }
+@media (max-width: 426px) {
+    .header-banner {
+    margin-left: 15px;
+    }
+    .main-title {
+        font-size: 1.875rem;
+    }
+    .img-friend {
+        height: 120px;
+    }
+    .section-title {
+   font-size: 1.875rem;
+    }
 }
 
-@media (min-width: 320px)  {
-  .img-friend {
-    height: 100px;
-  }
-}
-
- @media (min-width: 767px) { 
-     .img-friend {
- height: 220px;
-  }
-} 
-
-@media (max-width: 425px) {
-  .main-title {
-    font-size: 28px;
-  }
-
-  .section-title {
-    font-size: 24px;
-  }
-
-  .input-wrapper {
-    max-width: 400px;
-  }
-
-  button {
-    padding: 8px 16px;
-    font-size: 12px;
-  }
-
-  .button-draw {
-    padding: 8px 16px;
-  }
-
-  .button-draw img {
-    margin-right: 10px;
-  }
-}
-
-@media (max-width: 375px) {
-  .main-title {
-    font-size: 24px;
-  }
-
-  .section-title {
-    font-size: 20px;
-  }
-
-  .input-wrapper {
-    max-width: 350px;
-  }
-
-  button {
-    padding: 6px 12px;
-    font-size: 10px;
-  }
-
-  .button-draw {
-    padding: 6px 12px;
-  }
-
-  .button-draw img {
-    margin-right: 5px;
-  }
-}
-
-@media (max-width: 320px) {
-  .main-title {
-    font-size: 20px;
-  }
- 
-
-  .section-title {
-    font-size: 18px;
-  }
-
-  .input-wrapper {
-    max-width: 300px;
-  }
-
-  button {
-    padding: 4px 8px;
-    font-size: 8px;
-  }
-
-  .button-draw {
-    padding: 4px 8px;
-  }
-
-  .button-draw img {
-    margin-right: 2px; 
-  }
-
-    .button-draw {
-    max-width: 200px;
-    margin: 0 auto;
+@media (min-width: 426px) and (max-width: 769px) {
+     .header-banner {
+    margin-left: 50px;
+    }
 }
