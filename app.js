@@ -32,3 +32,10 @@ function atualizarListaDeAmigos() {
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
+
+// Função para sortear um amigo secreto
+function sortearAmigo() {
+  if (listaDeAmigos.length === 0) {
+    alert("A lista de amigos está vazia. Adicione pelo menos um nome.");
+    return;
+  }
