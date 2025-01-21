@@ -2,6 +2,9 @@
 
 Este projeto é um desafio para desenvolver uma aplicação interativa que permite aos usuários criar uma lista de amigos e realizar um sorteio aleatório para determinar quem será o "amigo secreto". 
 
+---
+![Image](https://github.com/user-attachments/assets/4d967500-7634-49f2-9f15-db91d258d727)
+
 ## Funcionalidades
 
 ### 1. Adicionar Nomes
