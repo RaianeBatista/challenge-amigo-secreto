@@ -31,11 +31,11 @@ Este projeto é um desafio para desenvolver uma aplicação interativa que permi
 ## Validações Implementadas
 - **Campo de texto vazio**: O sistema impede que nomes em branco sejam adicionados à lista, exibindo um alerta caso isso ocorra.
 
-## Melhorias Futuras
+<!-- ## Melhorias Futuras
 - Adicionar a funcionalidade de remover nomes da lista.
 - Permitir salvar e carregar listas previamente criadas.
 - Implementar um design responsivo para melhor experiência em dispositivos móveis.
-- Adicionar animações durante o sorteio para uma experiência mais divertida.
+- Adicionar animações durante o sorteio para uma experiência mais divertida. -->
 
 ---
 **Autor:** RaianeBatista
