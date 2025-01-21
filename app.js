@@ -58,4 +58,9 @@ document.getElementById("amigo").addEventListener("input", function (event) {
   input.value = capitalizeFirstLetter(input.value);
 });
 
-
+// Adicionar evento de keydown para adicionar amigo ao pressionar Enter
+document.getElementById("amigo").addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+        adicionarAmigo();
+    }
+});
