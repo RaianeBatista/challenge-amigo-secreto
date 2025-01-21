@@ -28,3 +28,7 @@ function atualizarListaDeAmigos() {
   });
 }
 
+// Função para capitalizar a primeira letra de uma string
+function capitalizeFirstLetter(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
