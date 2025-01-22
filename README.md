@@ -19,13 +19,14 @@ Este projeto é um desafio para desenvolver uma aplicação interativa que permi
 - Um botão "Sortear Amigo" permitirá selecionar aleatoriamente um dos nomes da lista.
 - O nome sorteado será exibido na tela para que os usuários possam visualizar o resultado.
 
-## Tecnologias Utilizadas
-- **HTML**: Para estruturar a interface da aplicação.
-- **CSS**: Para estilizar os elementos da página.
-- **JavaScript**: Para implementar a lógica de adição de nomes, validação de entradas e sorteio aleatório.
+### Tecnologias Utilizadas
+
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 
 ## Como Usar
-1. Abra a aplicação em um navegador.
+1. Acesse agora o link na plataforma Vercel: [Link](https://challenge-amigo-secreto-gold.vercel.app/) 
 2. Insira o nome de um amigo no campo de texto.
 3. Clique no botão "Adicionar" para incluir o nome na lista.
 4. Repita o processo até que todos os amigos tenham sido adicionados.
@@ -34,6 +35,7 @@ Este projeto é um desafio para desenvolver uma aplicação interativa que permi
 
 ## Validações Implementadas
 - **Campo de texto vazio**: O sistema impede que nomes em branco sejam adicionados à lista, exibindo um alerta caso isso ocorra.
+
 
 <!-- ## Melhorias Futuras
 - Adicionar a funcionalidade de remover nomes da lista.
